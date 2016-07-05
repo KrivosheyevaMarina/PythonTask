@@ -1,4 +1,4 @@
-#Задание 1
+#Task 1
 
 import random
 x=random.uniform(-1,1)

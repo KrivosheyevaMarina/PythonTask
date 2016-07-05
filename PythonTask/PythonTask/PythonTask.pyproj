@@ -12,6 +12,7 @@
     <OutputPath>.</OutputPath>
     <Name>PythonTask</Name>
     <RootNamespace>PythonTask</RootNamespace>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -23,6 +24,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="PythonTask.py" />
+    <Compile Include="PythonTask2.py" />
+    <Compile Include="PythonTask3.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
