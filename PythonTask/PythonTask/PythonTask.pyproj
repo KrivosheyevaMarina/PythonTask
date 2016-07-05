@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>06a08bc2-e202-4e88-9f8c-20325784d607</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonTask.py</StartupFile>
+    <StartupFile>PythonTask3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
