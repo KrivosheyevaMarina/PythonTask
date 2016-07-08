@@ -23,6 +23,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Python task5.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonTask4.py">
       <SubType>Code</SubType>
     </Compile>

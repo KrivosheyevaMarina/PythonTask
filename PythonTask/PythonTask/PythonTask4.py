@@ -26,17 +26,34 @@
 #    except : 
 #        print ("only IaN logarifm we can calculate")
 
+#import math,sys
+#z=len(sys.argv)
+#i=1
+#while i <= z:
+#    try:
+#        x = float(sys.argv[i])
+#        if x > 0:
+#            y = math.log(x)
+#            print ( 'ln ( %f ) = %g' % (x,y) )
+#        else: 
+#            print ( 'ln ( %f ) is illegal' % (x) )
+#    except: 
+#        print ("only IaN logarifm we can calculate")
+#    i=i+1
+
+
 import math,sys
 z=len(sys.argv)
 i=1
-while i <= z:
-    try:
-        x = float(sys.argv[i])
+while 1:
+    try: 
+        x=float(sys.argv[i])
         if x > 0:
             y = math.log(x)
             print ( 'ln ( %f ) = %g' % (x,y) )
         else: 
             print ( 'ln ( %f ) is illegal' % (x) )
-    except: 
-        print ("only IaN logarifm we can calculate")
-    i=i+1
+        i=i+1
+    except:
+        break
+        
